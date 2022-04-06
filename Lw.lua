@@ -1,5 +1,5 @@
 local user = {
-    ["KRIPSI"] = true,
+    [""] = true,
     [""] = true,
 }
 
