@@ -1,9 +1,15 @@
-local user = {
-    [""] = true,
-    [""] = true,
-}
+local username_true = {}
+local username = globals.get_username()
+username_true['Mor1ss'] = true
+username_true[''] = true
 
-local name = globals.get_username()
+local function sendtrue()
+    if username_true[username] == true then
+      return true
+    else
+      return false
+    end
+end
 if user[name] == nil then
 console.execute("quit")
-else
+return sendtrue()
