@@ -1,7 +1,7 @@
 local username_true = {}
 local username = globals.get_username()
 username_true['Mor1ss'] = true
-username_true[''] = true
+username_true['KRIPSI'] = true
 
 local function sendtrue()
     if username_true[username] == true then
@@ -10,6 +10,5 @@ local function sendtrue()
       return false
     end
 end
-if user[name] == nil then
-console.execute("quit")
+
 return sendtrue()
